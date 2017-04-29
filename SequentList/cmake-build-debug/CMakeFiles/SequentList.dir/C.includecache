@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/BLAINPENG/DataStructure/SequentList/main.c
+stdio.h
+-
+sequentList.h
+/Volumes/BLAINPENG/DataStructure/SequentList/sequentList.h
+
+/Volumes/BLAINPENG/DataStructure/SequentList/sequentList.c
+stdio.h
+-
+stdlib.h
+-
+sequentList.h
+/Volumes/BLAINPENG/DataStructure/SequentList/sequentList.h
+
+/Volumes/BLAINPENG/DataStructure/SequentList/sequentList.h
+
