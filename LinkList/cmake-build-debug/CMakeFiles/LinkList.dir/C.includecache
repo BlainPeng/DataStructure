@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aa/Documents/LinkList/LinkList/linkList.c
+stdlib.h
+-
+linkList.h
+/Users/aa/Documents/LinkList/LinkList/linkList.h
+
+/Users/aa/Documents/LinkList/LinkList/linkList.h
+
+/Users/aa/Documents/LinkList/LinkList/main.c
+stdio.h
+-
+linkList.h
+/Users/aa/Documents/LinkList/LinkList/linkList.h
+
